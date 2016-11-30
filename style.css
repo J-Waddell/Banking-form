@@ -16,3 +16,7 @@ body {
 .heavy {
 	font-weight: bold;
 }
+
+.checkbox {
+	border: 100px;
+}
