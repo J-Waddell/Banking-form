@@ -2,44 +2,63 @@
 <html>
 <head>
 	<title>Banking Form</title>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <h1>Banking Form</h1>
 	<div class="app">
 	<fieldset>
 	<legend><span class="heavy">Application Info</span></legend>
-		Applicant first name:<br>
+		
+		<label>Applicant first name:</label>
 		<input type="text" name="applicantFirstName">
-		Applicant middle initial:<br>
+		<br>
+
+		<label>Applicant middle initial:</label>
 		<input type="text" name="applicantMiddleInitial">
-		Applicant last name:<br>
+		<br>
+
+		<label>Applicant last name:</label>
 		<input type="text" name="applicantLastName">
-		Applicant address:<br>
+		<br>
+
+		<label>Applicant address:</label>
 		<input type="text" name="applicantAddress">
-		Applicant occupation:<br>
+		<br>
+
+		<label>Applicant occupation:</label>
 		<input type="text" name="applicantOccupation">
-		Applicant employer:<br>
+		<br>
+
+		<label>Applicant employer:</label>
 		<input type="text" name="applicantEmployer">
-		Employer address:<br>
+		<br>
+
+		<label>Employer address:</label>
 		<input type="text" name="employerAddress">
+		<br>
+
 	</fieldset>
+	
+	<div class="loanEl">
+		<h2>Type of loan select element with these options:</h2>
+		<select name="loan">
+		<option value="commercial">commercial</option>
+		<option value="realEstate">Real estate</option>
+		<option value="personal">Personal</option>
+		<option value="mortgage">Mortgage</option>
+		</select>
 	</div>
-<div class="loanEl">
-<h2>Type of loan select element with these options:</h2>
-	<select name="loan">
-	<option value="commercial">commercial</option>
-	<option value="realEstate">Real estate</option>
-	<option value="personal">Personal</option>
-	<option value="mortgage">Mortgage</option>
-	</select>
-</div>
 
-<div class="loanAm">
-	<ul>
-	<li>Requested amount of loan:</li>
-	</ul>
-
-</div>
-
+		<div class="loanAm">
+	<h2>Requested amount of loan:</h2>
+			<form>
+				<input type="radio" name="years" value="5">5 years
+				<br>
+				<input type="radio" name="years" value="15">15 years<br>
+				<input type="radio" name="years" value="30">30 years
+			</form>
+		</div>
+	</div>
 </body>
 </html>
