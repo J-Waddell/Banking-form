@@ -5,25 +5,40 @@
 </head>
 <body>
 <h1>Banking Form</h1>
-<div class="appInfo">
-	<ol>
-		<li>Applicant first name</li>
-		<li>Applicant middle initial</li>
-		<li>Applicant last name</li>
-		<li>Applicant address</li>
-		<li>Applicant occupation</li>
-		<li>Applicant employer</li>
-		<li>Employer address</li>
-	</ol>
-</div>
-
+	<div class="app">
+	<fieldset>
+	<legend><span class="heavy">Application Info</span></legend>
+		Applicant first name:<br>
+		<input type="text" name="applicantFirstName">
+		Applicant middle initial:<br>
+		<input type="text" name="applicantMiddleInitial">
+		Applicant last name:<br>
+		<input type="text" name="applicantLastName">
+		Applicant address:<br>
+		<input type="text" name="applicantAddress">
+		Applicant occupation:<br>
+		<input type="text" name="applicantOccupation">
+		Applicant employer:<br>
+		<input type="text" name="applicantEmployer">
+		Employer address:<br>
+		<input type="text" name="employerAddress">
+	</fieldset>
+	</div>
 <div class="loanEl">
 <h2>Type of loan select element with these options:</h2>
+	<select name="loan">
+	<option value="commercial">commercial</option>
+	<option value="realEstate">Real estate</option>
+	<option value="personal">Personal</option>
+	<option value="mortgage">Mortgage</option>
+	</select>
+</div>
+
+<div class="loanAm">
 	<ul>
-		<li>Commercial</li>
-		
+	<li>Requested amount of loan:</li>
 	</ul>
-	
+
 </div>
 
 </body>
