@@ -1,0 +1,18 @@
+h1 {
+	color: darkgrey;
+}
+
+body {
+	font-family: arial; 
+	background-color: #ecf0f1;
+	color: grey;
+}
+
+.app {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.heavy {
+	font-weight: bold;
+}
