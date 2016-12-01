@@ -3,6 +3,7 @@ h1 {
 	text-align: center;
 	border-style: dotted;
 	border-color: #bdc3c7;
+	padding: 50px;
 }
 
 body {
@@ -20,4 +21,8 @@ body {
 
 h2 {
 	color: #2980b9;
+}
+
+ {
+	color: #c0392b;
 }
