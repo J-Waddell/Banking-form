@@ -3,7 +3,7 @@ h1 {
 	text-align: center;
 	border-style: dotted;
 	border-color: #bdc3c7;
-	padding: 50px;
+	padding: 30px;
 }
 
 body {
@@ -23,6 +23,15 @@ h2 {
 	color: #2980b9;
 }
 
- {
-	color: #c0392b;
+ div.end {
+	color: #7f8c8d;
+	text-align: left;
+}
+
+div.textarea {
+	text-align: left;
+}
+
+div.checkbox {
+	text-align: center;
 }
