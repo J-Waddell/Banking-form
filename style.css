@@ -1,11 +1,13 @@
 h1 {
 	color: darkgrey;
+	text-align: center;
 }
 
 body {
 	font-family: arial; 
 	background-color: #ecf0f1;
 	color: grey;
+	border: 10px solid;
 }
 
 .app {
@@ -15,8 +17,4 @@ body {
 
 .heavy {
 	font-weight: bold;
-}
-
-.checkbox {
-	border: 100px;
 }
